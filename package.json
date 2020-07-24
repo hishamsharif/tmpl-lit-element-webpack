@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --env.mode development",
-    "dist": "webpack --env.mode production",
+    "build": "webpack --env.mode production",
+    "tauri": "tauri",
+    "start": "npm run build & tauri dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,6 +22,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "lit-element": "^2.3.1"
+    "lit-element": "^2.3.1",
+    "tauri": "^0.10.0"
   }
 }

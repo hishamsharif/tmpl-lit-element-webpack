@@ -15,3 +15,12 @@ touch webpack.config.js
 
 -- create folders
 src\app
+
+-- add Tauri
+npm install tauri --save
+
+-- modify package.json
+"tauri": "tauri"
+
+-- init Tauri
+npm run tauri init
