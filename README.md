@@ -43,10 +43,12 @@ module.exports = ({ mode }) => {
 
 
 # folder structure
-├── package.json
-├── src
-│   ├── app
-│   │   └── my-app.js
-│   ├── index.html
-│   └── index.js
-└── webpack.config.js
+── package.json
+── src
+   ── app
+      └── my-app.js
+  ── index.html
+  ── index.js
+── webpack.config.js
+
+
