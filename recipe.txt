@@ -1,0 +1,17 @@
+guide url - https://paulmason.co.za/2019/02/09/getting-started-with-litelement-setup/
+
+-- install webpack deps
+npm install --save-dev webpack webpack-cli webpack-dev-server copy-webpack-plugin html-webpack-plugin
+
+
+-- install litelement
+npm install --save lit-element
+
+-- webcomponent polyfill
+npm install --save-dev @webcomponents/webcomponentsjs
+
+-- add webpack config
+touch webpack.config.js
+
+-- create folders
+src\app
