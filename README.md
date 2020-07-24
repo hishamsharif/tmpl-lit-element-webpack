@@ -17,6 +17,7 @@ npm install --save-dev @webcomponents/webcomponentsjs
 
 -- add webpack config
 touch webpack.config.js
+```
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
@@ -40,9 +41,10 @@ module.exports = ({ mode }) => {
     devtool: mode === "development" ? "source-map" : "none"
   };
 };
-
+```
 
 # folder structure
+```
 ── package.json
 ── src
    ── app
@@ -50,5 +52,5 @@ module.exports = ({ mode }) => {
   ── index.html
   ── index.js
 ── webpack.config.js
-
+```
 
