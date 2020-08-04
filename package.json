@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "webpack-dev-server --env.mode development",
     "build": "webpack --env.mode production",
-    "tauri": "tauri",
-    "start": "npm run build & tauri dev",
+    "tauri-dev": "tauri dev",
+    "start": "npm run build & npm run tauri-dev",
+    "pack": "tauri build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
